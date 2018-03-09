@@ -1,0 +1,301 @@
+@font-face
+{
+   font-family: ballpark;
+   src:
+   url('ballpark.ttf')
+}
+
+@font-face
+{
+   font-family: dayrom;
+   src:
+   url('dayrom.ttf');
+}
+
+body 
+{
+   background: url('geek.jpg')fixed no-repeat;
+   font-family: 'Trebuchet MS', Arial, sans-serif;
+}
+
+#bloc_page
+{
+   width: 80%;
+   margin: auto; 
+}
+#middle
+{
+   width: 80%;
+   margin : auto;
+}
+#bloc_page2
+{
+   width: 100%;
+   position: absolute;
+   right: 1px;
+   left:1px;
+   background-color: rgba(250,250,250,1);
+}
+#footerDesign
+{
+  width:100%;
+  background-color: rgba(0,0,0,1);
+}
+
+section h1, footer h1, nav a
+{
+   font-family: dayrom, serif;
+   font-weight: normal;
+   text-transform: uppercase;
+}
+/*
+header
+{
+   background: url('separateur.png') repeat-x bottom;
+}*/
+
+#titre_principal
+{
+   display: inline-block;   
+}
+
+header h1
+{
+   font-family: ballpark, serif;
+   font-size: 2.5em;
+   font-weight: normal;
+}
+#logo, header h1
+{
+   display: inline-block;
+   margin-bottom: 0px;
+}
+
+#logo
+{
+   width: 10%;
+   height: 10%;
+}
+
+#sm-eye
+{
+   /*display: inline-block;
+   position: relative;
+   bottom:-4px;*/
+   vertical-align:middle;
+   width:20px;
+   height: 20px;
+}
+
+header h2
+{
+   font-family: dayrom, serif;
+   font-size: 1.1em;
+   margin-top: 0px;
+   font-weight: normal;
+}
+
+nav
+{
+   display: inline-block;
+   text-align:right;
+   position : relative;
+   right: -580px;
+}
+
+nav ul
+{
+   list-style-type:none;
+}
+
+nav li
+{
+   display: inline-block;
+   margin-right: 15px;
+}
+
+nav a
+{
+   font-size:1.em;
+   color: black;
+   padding-bottom: 3px;
+   text-decoration: none;
+}
+
+nav a:hover
+{
+   color: rgba(155,0,0,0.8);
+   border-bottom: 3px solid rgba(155,0,0,0.8);
+}
+
+#banniere_image
+{
+  margin-top: 10px;
+  height: 200px;
+  border-radius: 5px;
+  background: url('keyboard.jpg') no-repeat;
+  position: relative;
+  box-shadow: 0px 4px 4px rgba(155,155,155,0.8);
+  margin-bottom: 25px;
+}
+
+.bouton_rouge
+{
+  display: inline-block;
+  height: 25px;
+  position: absolute;
+  right: 5px;
+  bottom: 5px;
+  background: url('fond_degraderouge.png') repeat-x;
+  border: 1px solid #760001;
+  border-radius: 5px;
+  font-size: 1.2em;
+  text-align: center;
+  padding: 3px 8px 0px 8px;
+  color: white;
+  text-decoration: none;
+}
+.bouton_rouge img
+{
+  border:0;
+}
+article, aside
+{
+  display: inline-block;
+  vertical-align: top;
+  text-align: justify;
+}
+
+article
+{
+  width: 55%;
+  margin-right:15px;
+}
+
+.ico_categorie
+{
+  vertical-align: middle;
+  margin-right: 8px;
+  width:  25px;
+  height: 25px;
+}
+
+article p
+{
+  font-size: 0.8em;
+}
+
+aside
+{
+  position: relative;
+  right:-25px;
+  width: 40%;
+  background-color: #706b64;
+  box-shadow: 0px 2px 5px #1c1a19;
+  border-radius: 5px;
+  padding: 10px;
+  color: white;
+  font-size:0.9em;
+}
+
+aside p
+{
+  width:100%;
+}
+
+#fleche_bulle
+{
+  position: absolute;
+  top: 100px;
+  left: -12px;
+}
+
+#photo_avatar
+{
+  text-align:center;
+}
+
+#photo_avatar img
+{
+  float:left;
+  width: 20%;
+  height: 20%;
+}
+
+#social_media
+{
+  width:10%;
+  height: 10%;
+}
+
+#cool_pic
+{
+  width: 35%;
+  height: 35%;
+}
+aside img
+{
+  margin-right: 5px;
+}
+
+footer
+{
+  margin-top: 5px;
+ /* background: url("separateur.png")repeat-x top;*/
+  padding-top: 25px;
+  background-color: rgba(0,0,0,0.8);
+}
+
+footer p, footer ul
+{
+  font-size: 0.8em;
+  color: rgb(255,255,255);
+}
+footer h1
+{
+  font-size: 1.1em;
+  color: rgb(255,255,255);
+}
+
+#tweet, #mes_photos, #mes_amis
+{
+  display: inline-block;
+  vertical-align: top;
+  color: rgb(255,255,255);
+}
+
+#tweet
+{
+  width: 28%;
+}
+
+#mes_photos
+{
+  width: 30%;
+  vertical-align: top;
+}
+
+#mes_amis
+{
+  width:40%;
+}
+#mes_photos img
+{
+  border: 1px solid #181818;
+  margin-right: 2px;
+  border-radius:5px;
+}
+
+#mes_amis ul
+{
+  display: inline-block;
+  vertical-align: top;
+  width:40%;
+  padding-left: 2px;
+}
+
+#mes_amis a
+{
+  text-decoration: none;
+  color: blue;
+}
